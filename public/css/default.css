@@ -1,0 +1,286 @@
+body{
+	padding-top: 70px;
+  background-color: #e5e5e5;
+  /*background-image: url('/image/bg.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;*/
+}
+
+.container{
+  max-width: 950px;
+}
+
+.navbar-default{
+  background: rgb(95,95,95);
+  border-bottom-color: #fff !important; 
+}
+
+.navbar-brand{
+  color: #fff !important;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+#navs li a{
+  color: #e5e5e5;
+  transition: all 1s;
+}
+
+#navs li a:hover,
+#navs li a:focus {
+  color: #fff;
+  text-decoration: none;
+  background-color: #000;
+}
+
+#navs  .active  a,
+#navs  .active  a:hover,
+#navs  .active  a:focus {
+  background-color: #000;
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar-default .navbar-nav li a{
+  color: #e5e5e5;
+}
+
+.navbar-default .navbar-nav li a:hover,
+.navbar-default .navbar-nav li a:focus{
+  background-color: #000;
+  color: #fff;
+}
+
+.navbar-nav .open .dropdown-toggle{
+  background-color: #fff !important;
+}
+
+.dropdown-menu{
+  width: 180px;
+  text-align: center;
+}
+
+.dropdown-menu .dropdown-header{
+  font-size: 15px;
+  font-weight: bold;
+  color: #2980b9;
+}
+
+.navbar-nav .dropdown-menu li a{
+  font-weight: normal;
+  font-size: 15px;
+  color: #777;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.navbar-nav .dropdown-menu li a:hover{
+  color: #777;
+  background: #fff;
+  text-decoration: underline;
+} 
+
+.dropdown-menu:before {
+  position: absolute;
+  top: -11px;
+  right: 20%;
+  display: inline-block;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #ccc;
+  border-left: 10px solid transparent;
+  border-bottom-color: rgba(0, 0, 0, 0.2);
+  content: '';
+}
+
+.dropdown-menu:after {
+  position: absolute;
+  top: -10px;
+  right: 20%;
+  display: inline-block;
+  border-right: 9px solid transparent;
+  border-bottom: 9px solid #ffffff;
+  border-left: 9px solid transparent;
+  content: '';
+}
+
+/*for menubar*/
+
+/*#menubar{
+  background: #fff;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+}*/
+
+/*#menubar ul{
+  padding: 15px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin: 0;
+}
+
+#menubar form{
+  padding: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin: 0;
+}
+
+#menubar li{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#menubar li a{
+  padding-bottom: 15px;
+  font-size: 15px;
+  color: #666;
+  border-bottom: 3px solid transparent;
+}
+
+#menubar li a:hover,
+#menubar li a:focus {
+  text-decoration: none;
+  color: #000;
+}
+
+#menubar .active a,
+#menubar .active a:hover,
+#menubar .active a:focus {
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #f00;
+  border-bottom-color: #f00;
+}*/
+
+#sidebar .list-group-header{
+  font-weight: 800;
+  background-color: #f6f7f8;
+}
+
+/* For Register page */
+#register{
+  background: #f4f4f4;
+}
+
+.inner-addon { 
+  position: relative; 
+}
+
+.inner-addon .fa {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+.left-addon .fa,
+.right-addon .fa  { 
+  font-size: 18px;
+  color: #aaa;
+  left: 0px;}
+
+
+.left-addon input,
+.right-addon input  { 
+  height: 40px;
+  padding-left: 30px; }
+
+/*End of register page*/
+
+#myModal .modal-header{
+  background: #0084b4;
+  color: #fff;
+}
+
+#myModal .modal-body{
+  padding: 20px 10px 20px 10px;
+}
+
+#footer {
+  position: relative;
+  margin-top: 50px;
+  padding-bottom: 15px;
+  background-color: #e5e5e5;
+  color: rgb(95,95,95);
+  text-align: center;
+  font-size: 15px;
+  font-family: museo_sans_rounded,"Helvetica Neue",Helvetica,Arial,sans-serif; 
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/*#footer .footer-top{
+  position: absolute;
+  top: -50px;
+  min-height: 80px;
+  width: 97%;
+  background: #f0ad4e;
+}*/
+#footer ul{
+  border-top: 1px solid #ccc;
+  list-style: none;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 20px;
+  margin-bottom: 15px;
+}
+
+#footer li{
+  display: inline;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#footer ul > li > a,
+#footer a{
+  color: rgb(95,95,95);
+}
+
+#footer ul > li > a:hover,
+#footer a:hover{
+  text-decoration: underline;
+}
+
+.default-section{
+  margin-bottom: 20px;
+}
+
+.w-bg{
+  padding: 0 20px 20px 20px;
+  background: #fff;
+  border-radius: 3px;
+  border: 1px solid transparent;
+}
+
+.header-text {
+  color: #65b045;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+#profile{
+  position: relative;
+  height: 200px;
+  background-image: url('/image/slide9.jpg');
+  background-repeat: no-repeat;
+}
+
+#updateForm{
+  float: left;
+}
+
+#deleteForm{
+  float: left;
+  margin-left: 10px;
+}
+
+#divider{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#session-position{
+  margin-top: 20px;
+  margin-left: 15px;
+}
+

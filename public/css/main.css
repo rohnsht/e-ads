@@ -1,0 +1,139 @@
+body{
+  position: relative;
+  padding-top: 100px;
+  background-color: #ebebeb;
+}
+
+.container{
+	max-width: 1000px;
+}
+
+.navbar-inverse{
+  background: #313640;
+}
+
+.navbar-inner{
+  min-height: 100px;
+  padding: 20px 0 20px 0;
+}
+
+.navbar-brand{
+  color: #fafafa !important;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.panel-default .panel-body{
+	padding: 30px;
+}
+
+#login{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #f4f4f4;
+  margin-bottom: 50px;
+}
+
+#register{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #f4f4f4;
+  margin-bottom: 50px;
+}
+
+#login h1,
+#register h1{
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+#login .hr,
+#register .hr {
+  position: relative;
+  width: 70%;
+  height: 8px;
+  margin: 21px 15% 30px;
+  box-shadow: 0px 1px 0px #FFF, 0px 0px 0px transparent;
+  border-bottom: 1px solid #E4E5E8;
+  text-align: center;
+}
+
+#login .hr .inner,
+#register .hr .inner {
+  background: none repeat scroll 0% 0% #F4F4F4;
+  border-radius: 100px;
+  display: inline-block;
+  width: auto;
+  padding: 9px 10px;
+  font-family: Georgia,Times,"Times New Roman",serif;
+  font-size: 16px;
+  font-style: italic;
+  line-height: 0;
+}
+
+/* Button */
+
+.btn-custom{
+  padding: 15px;
+  font-size: 20px !important;
+  font-weight: bold !important;
+  border-radius: 2px;
+}
+
+.btn-facebook{
+  background-color: #3B5998 !important;
+  background-image: none !important;
+  border-color: transparent !important;
+  color: #FFF !important;
+  text-shadow: 0px -1px transparent !important;
+  text-align: center;
+  font-weight: 700 !important;
+  background-clip: border-box;
+  font-family: museo_sans,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  box-shadow: none;
+  transition: background-color 0.1s ease-out 0s;
+}
+
+/* Button */
+
+/* Form input field icon */
+.inner-addon { 
+  position: relative; 
+}
+
+.inner-addon .fa {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+.left-addon .fa,
+.right-addon .fa  { 
+  font-size: 18px;
+  color: #aaa;
+  left: 0px;}
+
+
+.left-addon input,
+.right-addon input  { 
+  height: 40px;
+  padding-left: 30px; }
+
+/* icon */
+
+.default-section{
+  margin-bottom: 20px;
+
+}
+
+.w-bg{
+  padding: 15px;
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: 0px 0px 10px #ccc;
+}
+
+.sidebar .affix{
+  position: fixed !important;
+  top: 0;
+}
