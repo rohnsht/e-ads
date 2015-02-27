@@ -121,11 +121,7 @@ body{
 }
 
 .carousel .item-second{
-  background: url("/image/slide2.jpg") no-repeat center center #c0392b;
-}
-
-.carousel .item-third{
-  background: url("/image/slide3.jpg") no-repeat center center #8e44ad;
+  background: url("/image/slide3.jpg") no-repeat center center #c0392b;
 }
 
 .carousel-caption-left{

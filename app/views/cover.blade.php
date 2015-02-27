@@ -8,11 +8,7 @@
 @section('content')	
 	<div id="ajax">
 		<div id="myCarousel" class="carousel slide" data-ride="carousel">
-			<ol class="carousel-indicators">
-		        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-		        <li data-target="#myCarousel" data-slide-to="1"></li>
-		        <li data-target="#myCarousel" data-slide-to="2"></li>
-	      	</ol>
+			
 	      	<div class="container">
 	        	<div class="carousel-caption-left">
 	          		<h4>Lets make advertisement easier and available to everyone.</h4><br>
@@ -27,15 +23,8 @@
 			        	</div>        	
 		        	</div>	
 	        	</div>
+		         
 		        <div class="item item-second">
-		          	<div class="container">
-			        	<div class="carousel-caption-right">	
-			          		<p>Advertise Here!</p>		          	
-			        	</div>        	
-			        </div>
-		        </div> 
-		        <div class="item item-third">
-		          	<!-- <img src="image/slide3.jpg"> -->
 		          	<div class="container">
 			        	<div class="carousel-caption-right">	
 			          		<p>Boost Your Audience!</p>	          	
