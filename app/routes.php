@@ -80,10 +80,10 @@ Route::group(array('before'=>'guest'), function(){
 		Route::post('register', 'HomeController@postRegister');
 		Route::post('login', 'HomeController@postLogin');
 		Route::post('login/recover', 'HomeController@postForgotPassword');
-		Route::post('recover', 'HomeController@postRecover');
-		Route::post('login/fb', 'FacebookController@postLogin');
+		Route::post('recover', 'HomeController@postRecover');	
 
 	});
+	Route::post('login/fb', 'FacebookController@postLogin');
 	
 	Route::get('/', array('as'=>'home', 'uses'=>'HomeController@index'));
 	Route::get('login', 'HomeController@getLogin');

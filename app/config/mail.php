@@ -54,7 +54,7 @@ return array(
 	|
 	*/
 
-	'from' => array('address' => 'legend.ace18@gmail.com', 'name' => 'Rohan'),
+	'from' => array('address' => 'rohanshrestha@gmail.com', 'name' => 'Rohan'),
 
 	/*
 	|--------------------------------------------------------------------------
@@ -80,7 +80,7 @@ return array(
 	|
 	*/
 
-	'username' => 'legend.ace18@gmail.com',
+	'username' => 'rohanshrestha098@gmail.com',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -93,7 +93,7 @@ return array(
 	|
 	*/
 
-	'password' => '3Shrawan2049',
+	'password' => 'thisisrohan',
 
 	/*
 	|--------------------------------------------------------------------------
